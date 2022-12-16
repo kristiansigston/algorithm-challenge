@@ -21,10 +21,9 @@ function reverse2(str) {
 }
 
 function reverse3(str) {
-  debugger
   return str.split('').reduce((word, char) => {
     return char + word
   }, '')
 }
 
-module.exports = reverse3;
+module.exports = { reverse, reverse2, reverse3 };

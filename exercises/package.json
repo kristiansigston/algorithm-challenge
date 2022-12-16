@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest palindrome/test.js --watch"
+    "test": "npx jest steps/test.js --watch"
   },
   "jest": {
     "testEnvironment": "node"
